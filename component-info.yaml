@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-golang-sak
+  description: sak
+  annotations: 
+    github.com/project-slug: blamdemo/gol
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
